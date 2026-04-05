@@ -195,34 +195,47 @@ def main():
 font-family:bold ;
 color:beige;
 }
+/* Main app background */
 .stApp {
-background: linear-gradient(
-to left,
-#a7ebf2,#54acbf,#26658c,#023859,#011c40
-);
+    background: linear-gradient(to left, #a7ebf2,#54acbf,#26658c,#023859,#011c40);
 }
-                /* Transparent Text Area */
-textarea {
-background-color: rgba(255,255,255,0.1) !important;
-color: white !important;
-border-radius: 10px !important;
-border: 1px solid rgba(255,255,255,0.3) !important;
-backdrop-filter: blur(10px);
+/* Text area */
+[data-testid="stTextArea"] textarea {
+    background-color: rgba(255,255,255,0.1) !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    backdrop-filter: blur(1px);
 }
 
-/* Upload box transparency */
+/* Input fields */
+[data-testid="stTextInput"] input {
+    background-color: rgba(255,255,255,0.1) !important;
+    color: white !important;
+    backdrop-filter: blur(1px);
+}
+
+/* File uploader */
 [data-testid="stFileUploader"] {
-background: rgba(255,255,255,0.1);
-border-radius: 10px;
-padding: 10px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(0);
 }
 
-/* Input text color */
-input {
-background-color: rgba(255,255,255,0.1) !important;
-color: white !important;
+/* Buttons */
+.stButton > button {
+    background-color: #26C6DA !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+    font-weight: bold !important;
 }
 
+/* Button hover effect */
+.stButton > button:hover {
+    background-color: #0097A7 !important;
+}
 
 </style>
 """, unsafe_allow_html=True)
