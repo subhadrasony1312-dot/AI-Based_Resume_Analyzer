@@ -1,6 +1,7 @@
 # 🤖 AI-Based_Resume_Analyzer
 
 📌 Overview
+<br>
 The AI-Based Resume Analyzer is a smart web application that helps recruiters and candidates evaluate how well a resume matches a job description. It uses Natural Language Processing (NLP) and Machine Learning (TF-IDF + Cosine Similarity) to provide accurate match scores and insights.
 <br>
 🚀 Live Demo :
@@ -53,5 +54,6 @@ PostgreSQL – Store analysis results
 <br>
 psycopg2 – Database connectivity
 <br>
-Develop & Deployed By 🩵 Subhadra Biswal
+<br>
+Developed & Deployed By 🩵 Subhadra Biswal
 
