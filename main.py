@@ -18,7 +18,7 @@ st.markdown("""<meta name="google-site-verification" content="Ur5oXAnC1cNCwVqD3_
 # =====================
 DB_CONFIG = {
     "host": "aws-1-ap-northeast-2.pooler.supabase.com",
-    "database": "resume_analyzer",
+    "database": "postgres",
     "user": "postgres.uxwcgtpwbmfxknffcywb",
     "password": "SUBHADRA@19092005",
     "port": "5432"
